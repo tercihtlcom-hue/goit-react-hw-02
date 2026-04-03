@@ -1,16 +1,42 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kanka, projenin GitHub'da jilet gibi durması ve mentorların "Adam yapmış" demesi için sağlam bir README.md şart. Senin için hem Türkçe hem İngilizce (çünkü GoIT genelde İngilizce ister) karışık, profesyonel bir dosya hazırladım.
 
-Currently, two official plugins are available:
+Projenin en ana dizinindeki (package.json'ın yanı) README.md dosyasını aç ve içindekileri silip şunları yapıştır:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+☕ Sip Happens Café - Feedback App
+This is a modern, responsive feedback tracking application built with React and Vite. It allows users to collect and manage customer feedback for a café business.
 
-## React Compiler
+🚀 Features
+Real-time Statistics: Instant calculation of total feedback and positive feedback percentage.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Persistent Storage: Uses localStorage to save feedback data, so it stays even after refreshing the page.
 
-## Expanding the ESLint configuration
+Conditional Rendering: * Shows a "No feedback yet" notification when there's no data.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The "Reset" button only appears after the first feedback is given.
+
+Responsive Design: Fully functional on mobile and desktop.
+
+Modular CSS: Styled using CSS Modules to prevent naming conflicts.
+
+🛠️ Tech Stack
+Frontend: React 18
+
+Build Tool: Vite
+
+Styling: CSS Modules
+
+Normalization: modern-normalize
+
+📦 Project Structure
+Plaintext
+src/
+├── components/
+│   ├── App/             # Main application logic & state
+│   ├── Description/     # Header and intro text
+│   ├── Options/         # Feedback buttons (Good, Neutral, Bad, Reset)
+│   ├── Feedback/        # Statistics display
+│   └── Notification/    # Empty state message
+├── index.css            # Global styles
+└── main.jsx             # Entry point
