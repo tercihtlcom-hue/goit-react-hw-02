@@ -1,9 +1,5 @@
 # React + Vite
 
-Kanka, projenin GitHub'da jilet gibi durması ve mentorların "Adam yapmış" demesi için sağlam bir README.md şart. Senin için hem Türkçe hem İngilizce (çünkü GoIT genelde İngilizce ister) karışık, profesyonel bir dosya hazırladım.
-
-Projenin en ana dizinindeki (package.json'ın yanı) README.md dosyasını aç ve içindekileri silip şunları yapıştır:
-
 ☕ Sip Happens Café - Feedback App
 This is a modern, responsive feedback tracking application built with React and Vite. It allows users to collect and manage customer feedback for a café business.
 
