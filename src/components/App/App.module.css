@@ -1,0 +1,57 @@
+.container {
+  padding: 40px;
+  max-width: 600px;
+  margin: 0 auto; /* Ortalar */
+  display: flex;
+  flex-direction: column; /* Alt alta dizer */
+  align-items: center; /* Yatayda ortalar */
+  gap: 30px; /* Elemanlar arası boşluk */
+  background-color: #1f2937; /* Koyu arka plan */
+  border-radius: 12px; /* Köşeleri yumuşat */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Hafif gölge */
+}
+
+.container h1 {
+  color: #f9fafb; /* Açık renk başlık */
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.good {
+  background-color: #10b981; /* Yeşil */
+  color: #fff;
+}
+button.good:hover {
+  background-color: #059669;
+}
+
+button.neutral {
+  background-color: #6b7280; /* Gri */
+  color: #fff;
+}
+button.neutral:hover {
+  background-color: #4b5563;
+}
+
+button.bad {
+  background-color: #ef4444; /* Kırmızı */
+  color: #fff;
+}
+button.bad:hover {
+  background-color: #dc2626;
+}
+
+.noFeedback {
+  margin-top: 20px;
+  font-style: italic;
+  color: #9ca3af;
+}
